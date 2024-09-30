@@ -46,7 +46,8 @@ Pointer 1
   Price Base: 50
   Price Base 2: 2
   Price: 25.0
-  Value to move: 20.0```
+  Value to move: 20.0
+```
 The output will show a series of memory pointers being tracked, along with the calculated values.
 
 🛡️ Error Handling
