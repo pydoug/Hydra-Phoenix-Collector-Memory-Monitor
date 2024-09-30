@@ -1,5 +1,8 @@
 # Hydra Phoenix Collector Memory Monitor 🔨🤖🔧
 
+**FOR PATH OF EXILE** **MAYBE NEED UPDATE THE OFFSET**
+**CAPTURE FULL AUCTION HOUSE**(Faustus)
+
 The **Hydra Phoenix Collector Memory Monitor** is a memory pointer monitoring tool designed to track values within the *Path of Exile* game process. It accesses memory values, calculates stock prices, and determines the value to be moved. This project utilizes the `pymem` library to access and manipulate the process memory in real time.
 
 ## 📜 Features
@@ -34,20 +37,19 @@ Run the script:
 Once the script is running, it will connect to the PathOfExile.exe process and begin monitoring the configured memory pointers. The program will read memory values such as STOCK and Price Base, calculate the prices, and output results to the terminal.
 
 📝 Example Output
+
 HYDRA PHOENIX COLLECTOR MEMORY MONITOR
 Connecting "PathOfExile.exe" 12345
-```
 Pointer 1
   Base address: 0x308ab70, Initial address: 0x7ff6c8c0ab70
   Offset 0: 0x8, Address: 0x7ff6c8c0ab70, Value: 0x7ff6c8c0abcd
-  ...
   Final offset: 0x8, Final address: 0x7ff6c8c0abcd
   STOCK: 500
   Price Base: 50
   Price Base 2: 2
   Price: 25.0
   Value to move: 20.0
-```
+
 The output will show a series of memory pointers being tracked, along with the calculated values.
 
 🛡️ Error Handling
