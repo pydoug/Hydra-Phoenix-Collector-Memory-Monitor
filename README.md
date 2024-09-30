@@ -28,9 +28,9 @@ pip install pymem
 Clone the repository:
 
 ```
-
 git clone https://github.com/pydoug/Hydra-Phoenix-Collector-Memory-Monitor.git
-cd Hydra-Phoenix-Collector-Memory-Monitor```
+cd Hydra-Phoenix-Collector-Memory-Monitor
+```
 
 Run the script:
 ```python main.py```
