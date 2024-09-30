@@ -33,7 +33,11 @@ cd Hydra-Phoenix-Collector-Memory-Monitor
 ```
 
 Run the script:
-```python main.py```
+```
+open PathOfExile
+after open the script on cmd
+python main.py
+```
 Once the script is running, it will connect to the PathOfExile.exe process and begin monitoring the configured memory pointers. The program will read memory values such as STOCK and Price Base, calculate the prices, and output results to the terminal.
 
 📝 Example Output
